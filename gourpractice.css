@@ -1,0 +1,136 @@
+body{
+    margin: 0;
+    width: 100%;
+}
+*{
+    box-sizing: border-box;
+    font-family: 'Times New Roman';
+}
+.navbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 35px;
+    font-size: 16px;
+    letter-spacing: 4px;
+    border-bottom: 1.5px solid rgba(161, 160, 160, 0.176);
+    background-color: white;
+    z-index: 1;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+
+}
+.nav2{
+    display: flex;
+    gap: 35px;
+}
+img{
+    width: 100%;
+}
+header{
+    margin-top: 20px;
+    position: relative;
+}
+
+.header2{
+    position: absolute;
+    bottom: 0px;
+    left: 28px;
+    font-size: 35px;
+    font-family: monospace;
+    color: rgb(88, 87, 87);
+    letter-spacing: 4px;
+}
+.headerimage{
+    height: 650px;
+    
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+.subcontainer1{
+    width: 41%;
+    margin:70px 20px;
+}
+.subimage{
+    height: 650px;
+}
+h1{
+    font-family: Arial;
+    font-size: 30px;
+    letter-spacing: 4px;
+    font-weight: normal;
+    text-align: center;
+}
+h2{
+    font-family: monospace;
+    font-weight: normal;
+    letter-spacing: 3px;
+    text-align: center;
+    font-size: 18px;
+}
+.subcontainer1 p{
+    font-size: 18px;
+    line-height: 25px;
+}
+.subcontainer1 .about{
+    color: grey;
+}
+.subcontainer1 span{
+    background-color: rgb(210, 207, 207);
+    padding: 6px;
+}
+.subcontainer2{
+    width:41%;
+    margin:70px 20px;
+}
+.subcontainer2 h2{
+    text-align: left;
+}
+.subcontainer2 img{
+    height: 650px;
+}
+.container1{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+.subcontainer3{
+    width: 85.7%;
+}
+.container1 h1{
+    text-align: left;
+}
+.container1 h3{
+    color: rgb(22, 113, 152);
+}
+.container1 p{
+    font-size: 15px;
+}
+form>input{
+    font-size: 15px;
+    width: 100%;
+    padding: 15px 5px;
+    border: none;
+    border-bottom: 1px solid rgb(185, 185, 185);
+}
+.submit{
+    display: flex;
+    padding: 10px 15px;
+    border: 1px solid black;
+    font-size: 14px;
+}
+footer{
+    background-color: rgba(190, 161, 149, 0.482);
+    text-align: center;
+    padding: 40px 0px;
+    font-size: 18px;
+}
+a{
+    color: black;
+    text-decoration: line-through;
+    font-size: 18px;
+}
