@@ -15,9 +15,12 @@
     <div class="navbar">
         <div class="nav1">Gourmet au Catering</div>
         <div class="nav2">
-            <span>About</span>
+            <a href="#about">About</a>
+            <a href="#menu">Menu</a>
+            <a href="#contact">Contact</a>
+            <!-- <span>About</span>
             <span>Menu</span>
-            <span>Contact</span>
+            <span>Contact</span> -->
         </div>
     </div>
     <header>
@@ -29,8 +32,9 @@
     <div class="container">
         <div class="subcontainer1">
             <img class="subimage1" src="https://www.w3schools.com/w3images/tablesetting2.jpg" alt="">
+            <div></div>
         </div>
-        <div class="subcontainer1">
+        <div id="about" class="subcontainer1">
             <br>
             <h1>About Catering</h1>
             <br>
@@ -44,7 +48,7 @@
             </p>
         </div>
     </div>
-    <div class="container">
+    <div id="menu" class="container">
         <div class="subcontainer2">
             <h1>Our Menu</h1>
             <br>
@@ -67,7 +71,7 @@
             <img src="https://www.w3schools.com/w3images/tablesetting.jpg" alt="">
         </div>
     </div>
-    <div class="container1">
+    <div id="contact" class="container1">
         <div class="subcontainer3">
             <h1>Contact</h1>
             <br>
@@ -81,13 +85,13 @@
                 You can also contact us by phone 00553123-2323 or email catering@catering.com, or you can send us a message here:
             </p>
             <form action="">
-                <input type="text" name="Name" placeholder="Name">
+                <input type="text" name="Name" placeholder="Name" required>
                 <br><br>
-                <input type="number" name="count" placeholder="How many people">
+                <input type="number" name="count" placeholder="How many people" required>
                 <br><br>
-                <input type="datetime-local" value="2020-11-16T08:10" name="datetime" id="">
+                <input type="datetime-local" value="2020-11-16T08:10" name="datetime" id="" required>
                 <br><br>
-                <input type="text" name="Special-message" placeholder="Message \ special requirements">
+                <input type="text" name="Special-message" placeholder="Message \ special requirements" required>
                 <br><br><br>
                 <div>
                     <input class="submit" type="submit" value="SEND MESSAGE">

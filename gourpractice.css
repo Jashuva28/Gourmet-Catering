@@ -22,6 +22,10 @@ body{
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 
 }
+.navbar a{
+    text-decoration: none;
+    color: black;
+}
 .nav2{
     display: flex;
     gap: 35px;
@@ -129,7 +133,7 @@ footer{
     padding: 40px 0px;
     font-size: 18px;
 }
-a{
+footer a{
     color: black;
     text-decoration: line-through;
     font-size: 18px;
